@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Company</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reboot.css">
+</head>
+
+<body>
+  
+<!-- Navigation -->
+
+  <body id="toggleNav">
+
+    <header id="header">
+
+      <div class="container">
+
+        <a id="blocLogo" href="#" title="Web agency">
+          <img src="Ressources/logo.png" id="logo" alt="Logo Web agency" class="logo">
+          <img src="Ressources/logo_webagency.png" id="webagency" alt="Logo Web agency">
+        </a>
+        <span id="showNav">
+          <a href="#toggleNav">
+            &#9776;
+          </a>
+        </span>
+
+        <span id="hideNav">
+          <a href="#">
+            &#10005;
+          </a>
+        </span>
+
+        <nav>
+          <ul>
+            <li><a href="#slider" title="Accueil">Accueil</a></li>
+            <li><a href="#services" title="Services">Services</a></li>
+            <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+            <li><a href="#contact" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <main>
+
+      <!-- slider -->
+      <section id="slider">
+
+        <span id="slide-2" style="display: none"></span>
+        <span id="slide-1" style="display: none"></span>
+
+        <span class="slider-nav">
+          <a href="#slide-1" class="slider-btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.31mm" height="18.62mm" viewbox="0 0 256 511.99">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path d="M0,0C141.38,0,256,114.61,256,256S141.38,512,0,512Z" />
+              <path class="cls-1"
+                d="M57.76,249.34,134,173.08a9.4,9.4,0,0,1,13.31,0l8.9,8.9a9.42,9.42,0,0,1,0,13.3L95.81,256l60.44,60.73a9.41,9.41,0,0,1,0,13.3l-8.9,8.9a9.42,9.42,0,0,1-13.32,0L57.76,262.66A9.42,9.42,0,0,1,57.76,249.34Z" />
+            </svg>
+          </a>
+          <a href="#slide-2" class="slider-btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.31mm" height="18.62mm" viewbox="0 0 256 511.99">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path d="M0,0C141.38,0,256,114.61,256,256S141.38,512,0,512Z" />
+              <path class="cls-1"
+                d="M57.76,249.34,134,173.08a9.4,9.4,0,0,1,13.31,0l8.9,8.9a9.42,9.42,0,0,1,0,13.3L95.81,256l60.44,60.73a9.41,9.41,0,0,1,0,13.3l-8.9,8.9a9.42,9.42,0,0,1-13.32,0L57.76,262.66A9.42,9.42,0,0,1,57.76,249.34Z" />
+            </svg>
+          </a>
+          <a href="#slide-1" class="slider-btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.31mm" height="18.62mm" viewbox="0 0 256 511.99">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path d="M256,512C114.62,512,0,397.38,0,256S114.62,0,256,0Z" />
+              <path class="cls-1"
+                d="M198.24,262.65,122,338.91a9.4,9.4,0,0,1-13.31,0L99.76,330a9.43,9.43,0,0,1,0-13.31L160.19,256,99.75,195.26a9.41,9.41,0,0,1,0-13.3l8.9-8.9a9.43,9.43,0,0,1,13.32,0l76.26,76.27A9.42,9.42,0,0,1,198.24,262.65Z" />
+            </svg>
+          </a>
+          <a href="#slide-2" class="slider-btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9.31mm" height="18.62mm" viewbox="0 0 256 511.99">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path d="M256,512C114.62,512,0,397.38,0,256S114.62,0,256,0Z" />
+              <path class="cls-1"
+                d="M198.24,262.65,122,338.91a9.4,9.4,0,0,1-13.31,0L99.76,330a9.43,9.43,0,0,1,0-13.31L160.19,256,99.75,195.26a9.41,9.41,0,0,1,0-13.3l8.9-8.9a9.43,9.43,0,0,1,13.32,0l76.26,76.27A9.42,9.42,0,0,1,198.24,262.65Z" />
+            </svg>
+          </a>
+        </span>
+
+        <figure id="figure-1">
+          <img src="Ressources/slider/slide-1-large.jpg" alt="une fille">
+          <figcaption>
+            <div>
+              <h2>
+                <span>WebAgency :</span>
+                l'agence de tous vos projets&nbsp;!
+              </h2>
+              <p>
+                Vous avez un projet web&nbsp;? WebAgency vous aide à le réaliser
+              </p>
+            </div>
+            <a href="#contact" class="no-wrap btn">Plus d'infos</a>
+          </figcaption>
+        </figure>
+
+        <figure id="figure-2">
+          <img src="Ressources/slider/slide-2-large.jpg" alt="un garçon">
+          <figcaption>
+            <div>
+              <h2>
+                <span>WebAgency :</span>
+                l'agence à l'écoute de vos besoins&nbsp;!
+              </h2>
+              <p>
+                Un besoin, une idée... WebAgency vous apporte ses conseils
+              </p>
+            </div>
+            <a href="#contact" class="no-wrap btn">Plus d'infos</a>
+          </figcaption>
+        </figure>
+        <div id="progress"></div>
+      </section>
+
+      <!-- services -->
+
+      <section id="services" class="pt-3">
+        <h1>
+          Nos services
+        </h1>
+        <hr>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewbox="0 0 16 16">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <h3>
+          Depuis plusieurs années, WebAgency vous accompagne dans la définition et la compréhension de vos projets, de
+          la conception graphique et technique au web-marketing
+        </h3>
+        <div>
+          <capture>
+            <img src="Ressources/services/services-large.png" alt="">
+          </capture>
+          <ul>
+            <li>
+              <div>
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31px" height="31px" viewbox="0 0 512 384">
+                    <path
+                      d="M496,384H64V80A16,16,0,0,0,48,64H16A16,16,0,0,0,0,80V416a32,32,0,0,0,32,32H496a16,16,0,0,0,16-16V400A16,16,0,0,0,496,384ZM464,96H345.94c-21.38,0-32.09,25.85-17,41l32.4,32.4L288,242.75l-73.37-73.37a32,32,0,0,0-45.25,0l-68.69,68.69a16,16,0,0,0,0,22.63l22.62,22.62a16,16,0,0,0,22.63,0L192,237.25l73.37,73.37a32,32,0,0,0,45.25,0l96-96L439,247c15.12,15.12,41,4.41,41-17V112A16,16,0,0,0,464,96Z"
+                      transform="translate(0 -64)" />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h2>
+                  UX Design
+                </h2>
+                <p>
+                  Plateformes, Web-applications, Sites transactionnels, E-commerce & Marchants, sites vitrines et médias
+                  conçus et pensés pour une utilisation optimale.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31px" height="31px" viewbox="0 0 512 448.05">
+                    <path
+                      d="M488.6,250.2,392,214V105.5a36,36,0,0,0-23.4-33.7l-100-37.5a35.58,35.58,0,0,0-25.3,0l-100,37.5a36,36,0,0,0-23.4,33.7V214L23.3,250.2A36,36,0,0,0,0,283.9V394a36,36,0,0,0,19.9,32.2l100,50a35.8,35.8,0,0,0,32.2,0l103.9-52,103.9,52a35.8,35.8,0,0,0,32.2,0l100-50A36,36,0,0,0,512,394V283.9A36,36,0,0,0,488.6,250.2ZM358,214.8l-85,31.9V178.5l85-37ZM154,104.1,256,65.9l102,38.2v.6L256,146.1,154,104.7Zm84,291.1-85,42.5V358.6l85-38.8Zm0-112L136,324.6,34,283.2v-.6l102-38.2,102,38.2Zm240,112-85,42.5V358.6l85-38.8Zm0-112L376,324.6,274,283.2v-.6l102-38.2,102,38.2Z"
+                      transform="translate(0 -31.97)" />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h2>
+                  UI Design
+                </h2>
+                <p>
+                  Ergonomie et facilité de navigation des interfaces pour sites vitrines, E-commerce, plateformes, Web
+                  applications et Sites média...
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31px" height="31px" viewbox="0 0 512 448.05">
+                    <path
+                      d="M 527.79 288 H 290.5 l 158.03 158.03 c 6.04 6.04 15.98 6.53 22.19 0.68 c 38.7 -36.46 65.32 -85.61 73.13 -140.86 c 1.34 -9.46 -6.51 -17.85 -16.06 -17.85 Z m -15.83 -64.8 C 503.72 103.74 408.26 8.28 288.8 0.04 C 279.68 -0.59 272 7.1 272 16.24 V 240 h 223.77 c 9.14 0 16.82 -7.68 16.19 -16.8 Z M 224 288 V 50.71 c 0 -9.55 -8.39 -17.4 -17.84 -16.06 C 86.99 51.49 -4.1 155.6 0.14 280.37 C 4.5 408.51 114.83 513.59 243.03 511.98 c 50.4 -0.63 96.97 -16.87 135.26 -44.03 c 7.9 -5.6 8.42 -17.23 1.57 -24.08 L 224 288 Z"
+                      transform="translate(0 -31.97)" />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h2>
+                  SEO - Search Engine Optimization
+                </h2>
+                <p>
+                  Où l'art d'optimiser la visibilité et le positionnement de sites web par les moteurs de recherche.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <!-- project -->
+      <section id="project" class="pt-3">
+        <h1>Nos projets</h1>
+        <hr>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewbox="0 0 16 16">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <h3>
+          Voici quelques projets qui ne sont pas le fait du hasard mais le fruit de notre imagination ! Nous donnons vie
+          à vos idées
+        </h3>
+
+        <span id="tous"></span>
+        <span id="creatives"></span>
+        <span id="corporate"></span>
+        <span id="portfolio"></span>
+
+        <nav>
+          <ul>
+            <li><a href="#tous">Tous</a></li>
+            <li><a href="#creatives">Créatives</a></li>
+            <li><a href="#corporate">Corporate</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="project-list">
+          <span id="project-1"></span>
+          <figure id="figure-project-1" class="creatives">
+            <img src="Ressources/projets/projet-1.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 1
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-1"></a>
+          </figure>
+          <span id="project-2"></span>
+          <figure id="figure-project-2" class="portfolio">
+            <img src="Ressources/projets/projet-2.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 2
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-2"></a>
+          </figure>
+          <span id="project-3"></span>
+          <figure id="figure-project-3" class="portfolio">
+            <img src="Ressources/projets/projet-3.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 3
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-3"></a>
+          </figure>
+          <span id="project-4"></span>
+          <figure id="figure-project-4" class="portfolio">
+            <img src="Ressources/projets/projet-4.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 4
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-4"></a>
+          </figure>
+          <span id="project-5"></span>
+          <figure id="figure-project-5" class="corporate">
+            <img src="Ressources/projets/projet-5.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 5
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-5"></a>
+          </figure>
+          <span id="project-6"></span>
+          <figure id="figure-project-6" class="creatives">
+            <img src="Ressources/projets/projet-6.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 6
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-6"></a>
+          </figure>
+          <span id="project-7"></span>
+          <figure id="figure-project-7" class="creatives">
+            <img src="Ressources/projets/projet-7.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 7
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-7"></a>
+          </figure>
+          <span id="project-8"></span>
+          <figure id="figure-project-8" class="corporate">
+            <img src="Ressources/projets/projet-8.jpg" alt="">
+            <figcaption>
+              <h2>
+                Titre projet 8
+              </h2>
+              <p>
+                Description du projet
+              </p>
+              <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="12px" viewbox="0 0 576 384">
+                  <path
+                    d="M288,144a111.1,111.1,0,0,0-31.24,5A55.57,55.57,0,0,1,181,224.76,111.72,111.72,0,1,0,288,144Zm284.52,97.4C518.29,135.59,410.93,64,288,64S57.68,135.64,3.48,241.41a32.35,32.35,0,0,0,0,29.19C57.71,376.41,165.07,448,288,448s230.32-71.64,284.52-177.41A32.35,32.35,0,0,0,572.52,241.4ZM288,400c-98.65,0-189.09-55-237.93-144C98.91,167,189.34,112,288,112s189.09,55,237.93,144C477.1,345,386.66,400,288,400Z"
+                    transform="translate(0 -64)" />
+                </svg>
+              </div>
+            </figcaption>
+            <a href="#project-8"></a>
+          </figure>
+        </div>
+      </section>
+
+
+
+
+      <div id="map-contact">
+
+        <!-- map -->
+        <section id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.228617421375!2d2.347892015674906!3d48.87291817928889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1443e430a1%3A0x2037d6c09960a6e8!2s21%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1606574779583!5m2!1sfr!2sfr"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+
+
+        <!-- contact -->
+        <section id="contact">
+          <form action="#">
+            <h1>
+              Contact info
+            </h1>
+            <h2>
+              WebAgency SAS
+            </h2>
+            <address>
+              150 rue Nicolas Louis Vauquelin 31100 Toulouse
+            </address>
+            <span>Tél. : 05 34 61 26 23</span>
+            <div>
+              <label for="lastname">Nom</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Votre nom">
+            </div>
+            <div>
+              <label for="firstname">Prénom</label>
+              <input type="text" id="firstname" name="firstname" placeholder="Votre prénom">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Votre email">
+            </div>
+            <div>
+              <label for="object">Sujet</label>
+              <input type="text" id="object" name="object" placeholder="Sujet">
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Message"></textarea>
+            </div>
+          </form>
+        </section>
+
+      </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+      <span>
+        Tous droits réservés WebAgency
+      </span>
+    </footer>
+
+    <a id="up" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 496">
+        <path
+          d="M8,256C8,119,119,8,256,8S504,119,504,256,393,504,256,504,8,393,8,256ZM239,142.1,103.5,277.6a23.9,23.9,0,0,0,0,33.9l17,17a23.9,23.9,0,0,0,33.9,0L256,226.9,357.6,328.5a23.9,23.9,0,0,0,33.9,0l17-17a23.9,23.9,0,0,0,0-33.9L273,142.1A24,24,0,0,0,239,142.1Z"
+          transform="translate(-8 -8)" />
+      </svg>
+    </a>
+
+  </body>
+
+</html>
